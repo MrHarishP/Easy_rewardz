@@ -1,0 +1,56 @@
+
+SELECT `last shopped store`,
+CASE WHEN recency <= 365 THEN 'active'
+            WHEN recency BETWEEN 366 AND 730 THEN 'dormant'
+            WHEN recency > 730 THEN 'lapsed' END AS STATUS,COUNT(DISTINCT mobile)Customer FROM 
+            program_single_view
+            WHERE `last shopped store` IN('CAPLMRRJ','CAPLTBRJ',
+'CAPLVARJ','CAPLSBRJ',
+'CAPLGKRJ','CAPLSSRJ',
+'CAPLMJRJ','CAPLGSRJ',
+'CAPLVJRJ','CAPLTJRJ',
+'CAPLSARJ','CAPLMMRJ',
+'CAPLMCRJ','CAPLKCRJ')
+AND mobile IN (SELECT DISTINCT mobile FROM member_report WHERE smsreachability= 'false')
+GROUP BY 1,2
+
+
+
+
+SELECT STORECODE,MIN(txndate) FROM txn_report_accrual_redemption
+WHERE STORECODE IN('CAPLMRRJ','CAPLTBRJ',
+'CAPLVARJ','CAPLSBRJ',
+'CAPLGKRJ','CAPLSSRJ',
+'CAPLMJRJ','CAPLGSRJ',
+'CAPLVJRJ','CAPLTJRJ',
+'CAPLSARJ','CAPLMMRJ',
+'CAPLMCRJ','CAPLKCRJ')
+AND mobile IN (SELECT DISTINCT mobile FROM member_report WHERE smsreachability= 'false')
+GROUP BY 1;
+
+
+
+
+SELECT STORECODE,COUNT(DISTINCT mobile)FROM txn_report_accrual_redemption
+WHERE STORECODE IN('CAPLMRRJ','CAPLTBRJ',
+'CAPLVARJ','CAPLSBRJ',
+'CAPLGKRJ','CAPLSSRJ',
+'CAPLMJRJ','CAPLGSRJ',
+'CAPLVJRJ','CAPLTJRJ',
+'CAPLSARJ','CAPLMMRJ',
+'CAPLMCRJ','CAPLKCRJ')
+AND mobile IN (SELECT DISTINCT mobile FROM member_report WHERE smsreachability= 'false')
+GROUP BY 1;
+
+SELECT STORECODE,COUNT(DISTINCT mobile)FROM txn_report_accrual_redemption
+WHERE STORECODE IN('CAPLMRRJ','CAPLTBRJ',
+'CAPLVARJ','CAPLSBRJ',
+'CAPLGKRJ','CAPLSSRJ',
+'CAPLMJRJ','CAPLGSRJ',
+'CAPLVJRJ','CAPLTJRJ',
+'CAPLSARJ','CAPLMMRJ',
+'CAPLMCRJ','CAPLKCRJ')
+AND mobile IN (SELECT DISTINCT mobile FROM member_report WHERE smsreachability= 'true')
+GROUP BY 1;
+
+

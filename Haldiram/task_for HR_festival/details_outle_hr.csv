@@ -1,0 +1,174 @@
+S.No.,Profit Center,Outlet Code,Outlet Name,Type,New/old
+1,HMPL,RO101,H8,High Street,Comp
+93,HMPL,RO102,APOLLO,Institution,Comp
+65,HMPL,RO103,LAJPAT NAGAR,High Street,Comp
+86,HMPL,RO106,Sarojni nagar,Mall,Comp
+20,HMPL,RO107,Faridabad,Mall,Comp
+129,HMPL,RO109,HALDIRAM - DLF VK,Mall,Comp
+85,HMPL,RO110,Crown Interiorz,Mall,Comp
+37,HMPL,RO112,Malviya Nagar,High Street,Comp
+68,HMPL,RO114,"Sec-15, Faridabad",High Street,Comp
+91,HMPL,RO115,New Friends Colony,High Street,Comp
+62,HMPL,RO116,Green Park,High Street,Comp
+111,HMPL,RO117,DLF SAKET,Mall,Comp
+22,HMPL,RO118,KALKAJI,High Street,Comp
+72,HMPL,RO120,Nehru Place,Mall,Comp
+76,HMPL,RO121,ANUPAM SAKET,High Street,Comp
+144,HMPL,RO122,KATWARIYA SARAI,High Street,Comp
+169,HMPL,RO126,Lajpat Nagar 2,High Street,Comp
+162,HMPL,RO127,KOSHI KALAN,High Street,Comp
+109,HMPL,RO128,JANGPURA,High Street,Comp
+83,HMPL,RO129,JASOLA,High Street,Comp
+107,HMPL,RO130,PACIFIC JASOLA,Food Court,Comp
+33,HMPL,RO131,Chhatarpur,High Street,Comp
+115,HMPL,RO132,Sanjay Palace Agra,High Street,Comp
+155,HMPL,RO133,Basai Mustakil Agra,High Street,Comp
+103,HMPL,RO135,Amolik City Life,Mall,New
+92,HMPL,RO137,Vasant Square Mall,Mall,Comp
+81,HMPL,RO138,Paras Trade Center,High Street,Comp
+128,HMPL,RO139,Mathura Sonkh Road,High Street,Comp
+77,HMPL,RO140,Pacific Mall NIT Faridabad,Food Court,Comp
+59,HMPL,RO141,Sector 16 Faridabad,High Street,Comp
+124,HMPL,RO142,Sec 21C Faridabad,High Street,New
+10,HMPL,RO144,Ballabgarh,High Street,New
+87,HMPL,RO145,Palwal,High Street,New
+108,HMPL,RO148,Tughlakabad Extension,High Street,Comp
+49,HMPL,RO149,Wazir Nagar,High Street,New
+29,HMPL,RO150,3C'S Mall Lajpat Nagar,Mall,New
+96,HMPL,RO151,Gomti Nagar Lucknow,High Street,New
+171,HMPL,RO157,Shivaji Nagar Kanpur,High Street,New
+172,HMPL,RO158,Swaroop Nagar Kanpur,High Street,New
+168,HMPL,RO159,Emerald Mall Lucknow,Mall,New
+18,HMPL,RO164,"Nit NH5, Faridabad",High Street,New
+64,HMPL,RO169,Pacific Mall Bata Chowk,Mall,New
+19,HPPL,RO301,Chandni Chowk,High Street,Comp
+165,HPPL,RO302,Moti Nagar,High Street,Comp
+132,HPPL,RO303,Connaught Place,High Street,Comp
+154,HPPL,RO304,Pitampura,Mall,Comp
+5,HPPL,RO305,Pacific Mall,Food Court,Comp
+131,HPPL,RO306,Rohini ,Mall,Comp
+54,HPPL,RO309,Jwala Heri,Mall,Comp
+137,HPPL,RO310,Tilak Nagar,High Street,Comp
+159,HPPL,RO313,Zirakpur,Highways,Comp
+97,HPPL,RO314,Janak Puri,Mall,Comp
+71,HPPL,RO317,Dwarka,Mall,Comp
+99,HPPL,RO318,Janak Cinema,Food Court,Comp
+116,HPPL,RO319,Model Town,High Street,Comp
+23,HPPL,RO321,Mohali,Food Court,Comp
+125,HPPL,RO323,Vegas Mall,Food Court,Comp
+157,HPPL,RO324,Pacific Mall Sec-21,Food Court,Comp
+153,HPPL,RO325,Ambala,Highways,Comp
+13,HPPL,RO326,Omaxe Chandi Chwok,Mall,Comp
+32,HPPL,RO327,Janpath,High Street,Comp
+28,HPPL,RO328,Mohali Walk,Mall,New
+127,HPPL,RO329,New Delhi Ral. St.,Food Court,Comp
+136,HPPL,RO330,Kamla Nagar,Food Court,Comp
+167,HPPL,RO331,Vegs Showroom,Only Shworoom,Comp
+24,HPPL,RO334,Rajouri Garden,High Street,Comp
+113,HPPL,RO335,NSP Pacific,Food Court,Comp
+121,HPPL,RO336,Amritsar,High Street,Comp
+98,HPPL,RO337,Barnala,High Street,Comp
+58,HPPL,RO338,Pusa Road-2,High Street,Comp
+39,HPPL,RO339,Mohali CP67,Highways,Comp
+158,HPPL,RO340,Murthal,Highways,Comp
+160,HPPL,RO341,JALANDHAR,Highways,Comp
+138,HPPL,RO343,NSP-2,Mall,Comp
+102,HPPL,RO344,DWARKA SEC-11,High Street,Comp
+41,HPPL,RO345,SHIMLA HIGHWAY,Highways,Comp
+94,HPPL,RO346,Bikaner House,High Street,Comp
+34,HPPL,Ro347,PATHANKOT,Highways,Comp
+16,HPPL,RO348,KW Mall,Food Court,Comp
+60,HPPL,RO349,Hisar,Highways,Comp
+122,HPPL,RO352,Pitampura Madhuban Chowk,Mall,New
+134,HPPL,RO353,Moga,Highways,New
+142,HPPL,RO354,Chandigarh Sector-26,High Street,New
+11,HPPL,RO355,Mohali Citi Centre,Mall,New
+7,HPPL,RO356,Amritsar Highway,Highways,New
+164,HPPL,RO357,Raj Nagar Enclave,High Street,New
+95,HPPL,RO358,Patiala,High Street,New
+12,HPPL,RO359,Doraha,Highways,New
+152,HPPL,RO360,"Ludhiana, Model Town",High Street,New
+17,HPPL,RO362,Katra,High Street,New
+170,HPPL,RO363,Balachaur,Highways,New
+8,HPPL,RO364,Punjabi Bagh,High Street,New
+14,HPPL,RO365,Karnal2,High Street,New
+147,HMFG,RO401,Haldiram - NH8,High Street,Comp
+42,HMFG,RO403,Haldiram - MGF Mall,Mall,Comp
+46,HMFG,RO404,Sahara mall shopping Complex,Mall,Comp
+139,HMFG,RO405,Haldiram's Ambiance Mall,Mall,Comp
+105,HMFG,RO408,Fortis Hospital Complex,Institution,Comp
+61,HMFG,RO409,V Square Mall 1st mile Stone,Mall,Comp
+66,HMFG,RO410,Haldiram's Rewari,Highways,Comp
+101,HMFG,RO414,Haldiram - Cyber Hub,Mall,Comp
+25,HMFG,RO417,HALDIRAM- PALAM VIHAR,Mall,Comp
+148,HMFG,RO419,HALDIRAM - ELEMENT ONE,Mall,Comp
+151,HMFG,RO422,HALDIRAM VATIKA BUSINESS PARK,Mall,Comp
+44,HMFG,RO423,HALDIRAM ARDEE MALL,Mall,Comp
+51,HMFG,RO425,HALDIRAM SECTOR 29,High Street,Comp
+143,HMFG,RO426,HALDIRAM - THREE ROADS,Mall,Comp
+130,HMFG,RO428,HALDIRAM - IRIS BROADWAW,Mall,Comp
+140,HMFG,RO429,WORLDMARK 3,Mall,Comp
+30,HMFG,RO431,HALDIRAM SEC-14,High Street,Comp
+56,HMFG,RO432,AIPL Joy Street,Mall,Comp
+6,HMFG,RO433,JAIPUR 135,Highways,Comp
+38,HMFG,RO434,DELHI 135,Highways,Comp
+114,HMFG,RO435,ARIA MALL,Mall,Comp
+45,HMFG,RO436,Satya The Hive,Mall,Comp
+4,HMFG,RO438,Mumbai Delhi Exp. Way,Highways,Comp
+15,HMFG,RO439,Elan Miracle,Mall,Comp
+50,HMFG,RO440,Klj Square,Mall,New
+9,HMFG,RO441,Whiteland ,Mall,New
+2,HMFG,RO443,M3M Atrium 57,Mall,New
+3,HMFG,RO444,Delhi Mumbai Exp. Way,Highways,New
+21,HEPL,RO501,SPICE,Mall,Comp
+31,HEPL,RO503,SHIPRA,Food Court,Comp
+84,HEPL,RO504,ANGEL,Mall,Comp
+43,HEPL,RO505,YOUTH/Route 63,High Street,Comp
+149,HEPL,RO506,CRM,Mall,Comp
+110,HEPL,RO507,DG,High Street,Comp
+78,HEPL,RO508,MSX,Mall,Comp
+89,HEPL,RO509,WSM,Mall,Comp
+135,HEPL,RO510,EDM,Food Court,Comp
+82,HEPL,RO511,AKDM,High Street,Comp
+141,HEPL,RO512,KHATAULI,Highways,Comp
+36,HEPL,RO513,LOGIX,Mall,Comp
+90,HEPL,RO514,GV,Food Court,Comp
+69,HEPL,RO515,SEC-18,High Street,Comp
+26,HEPL,RO517,NNG,High Street,Comp
+27,HEPL,RO518,DLF,Mall,Comp
+70,HEPL,RO519,ORBIT,Mall,Comp
+112,HEPL,RO520,CBD,Mall,Comp
+150,HEPL,RO521,PACIFIC,Food Court,Comp
+145,HEPL,RO522,AGRA,Mall,Comp
+55,HEPL,RO524,ADVENT ,Mall,Comp
+40,HEPL,RO525,Hush Plaza,Mall,Comp
+48,HEPL,RO526,SGM,Mall,Comp
+52,HEPL,RO528,RDC,High Street,Comp
+120,HEPL,RO529,GAJRAULA,Highways,Comp
+53,HEPL,RO530,SKYMARK,Mall,Comp
+146,HEPL,RO532,SIS-DDN,Mall,New
+73,HEPL,RO533,VASUNDHRA,Mall,Comp
+117,HEPL,RO534,VIKAS MARG,HR Express,Comp
+88,HEPL,RO535,KRISHANA NAGAR,High Street,Comp
+118,HEPL,RO536,V3S ,Mall,Comp
+133,HEPL,RO537,Meerut.exp,Highways,Comp
+126,HEPL,RO538,PREET VIHAR,High Street,Comp
+106,HEPL,RO540,Prabhat-DDN,Highways,Comp
+166,HEPL,RO541,Malsi- DDN,Highways,Comp
+161,HEPL,RO542,Unison Centrio -DDN,Food Court,Comp
+47,HEPL,RO544,GAUR CITY,Mall,Comp
+74,HEPL,RO545,Meerut Subharti,Food Court,Comp
+35,HEPL,RO546,Binge Central,Mall,Comp
+119,HEPL,RO547,Meerut gadh City,Mall,Comp
+67,HEPL,RO548,Spectrum Metro,Mall,Comp
+79,HEPL,RO549,Ircon Retail Mall,Mall,New
+57,HEPL,RO550,Grand Street,High Street,Comp
+163,HEPL,RO553,Haridwar Crystal World,Highways,New
+156,HMPL,T3A,T3-ARRIVAL,Airport,Comp
+123,HMPL,T3-ACB,T3-ACB,Airport,Comp
+75,HMPL,T3AINT-27A,T3 INT-ARRIVAL 27A,Airport,New
+80,HMPL,T3D,T3 DEP,Airport,Comp
+104,HMPL,T3DINT,Teminal 3DR-Old International,Airport,Comp
+100,HMPL,T3DINT-15B,Teminal 3DR-Old International-15B,Airport,Comp
+63,HMPL,T3DLINT,Teminal 3D International (Left),Airport,Comp
+173,HMFG,RO437,Legend Centra ,Mall,Comp

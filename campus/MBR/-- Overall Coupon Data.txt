@@ -1,0 +1,41 @@
+-- Overall Coupon Data
+
+SELECT 
+-- CASE WHEN issuedstore='ecom' THEN "online" ELSE "offline" END AS storetype,
+MONTH(issueddate), COUNT(*)Issued
+FROM coupon_offer_report 
+WHERE issueddate BETWEEN '2024-10-01' AND '2024-11-30' 
+AND issuedstore<>'demo'
+GROUP BY 1
+-- ,2
+;
+
+SELECT 
+CASE WHEN redeemedstorecode='ecom' THEN "online" ELSE "offline" END AS storetype,
+MONTH(useddate),COUNT(DISTINCT issuedmobile)Redeemers, 
+COUNT(couponcode)CouponsRedeemed, SUM(b.amount)RedemptionSale, 
+COUNT(modifiedbillno) redemptionbills, SUM(discount)discount 
+FROM coupon_offer_report a JOIN txn_Report_accrual_Redemption b ON a.billno=b.modifiedbillno 
+WHERE useddate BETWEEN '2024-10-01' AND '2024-11-30' AND couponstatus = 'Used' 
+AND redeemedstorecode<>'demo' 
+GROUP BY 1
+,2
+; 
+
+-- tier wise coupon data
+SELECT TIER, MONTH(issueddate), COUNT(*)Issued
+FROM coupon_offer_report 
+WHERE issueddate BETWEEN '2024-12-01' AND '2024-12-31' 
+AND issuedstore<>'demo'
+GROUP BY 1,2;
+
+SELECT tier,
+MONTH(useddate),COUNT(DISTINCT issuedmobile)Redeemers, 
+COUNT(couponcode)CouponsRedeemed, SUM(b.amount)RedemptionSale, 
+COUNT(DISTINCT billno) redemptionbills, SUM(discount)discount 
+FROM coupon_offer_report 
+WHERE useddate BETWEEN '2024-10-01' AND '2024-11-30' AND couponstatus = 'Used' 
+AND redeemedstorecode<>'demo' 
+GROUP BY 1
+,2
+; 
